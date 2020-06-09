@@ -3,7 +3,7 @@ const helmet = require('helmet')
 
 const carsRouter = require('../cars/CarsRouter.js')
 
-const sever = express()
+const server = express()
 
 server.use(helmet())
 server.use(express.json())
